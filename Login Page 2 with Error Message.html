@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+     header {
+      background-color: #FFFFFF;
+      color: #fff;
+      height: 72px;
+      width: 1520px;
+      left: 0;
+      top: 0;
+      border-radius: 0;
+      position: absolute;
+    }
+    
+    header h1 {
+      display: inline;
+      margin: 0;
+    }
+    
+    header img {
+      vertical-align: middle;
+      height: 52px;
+      width: 200px;
+      left: 135px;
+      top: 0px;
+      border-radius: 0;
+      position: absolute;
+    }
+    
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .background-image {
+      background-image: url('image\ 16.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 7.59%;
+      left: 0%;
+      bottom: 25.29%;
+     
+    }
+    
+    
+    .login-form {
+      position: absolute;
+      height: 459px;
+      width: 430px;
+left: 525px;
+right: 100px;
+top: 150px;
+bottom: 19.97%;
+
+
+
+background: #FFFFFF;
+border-radius: 10px;
+    }
+    
+    .login-content {
+      margin-bottom: 20px;
+    }
+    
+    .login-content h3 {
+      font-family: 'DM Sans';
+			font-style: normal;
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 52px;
+      letter-spacing: -0.4px;
+      text-align: center;
+			color: #1E0E62;
+			
+    }
+    
+    .form-field {
+      position: relative;
+      text-align: center;
+      margin: 20px auto;
+      
+    }
+    
+    .form-field input {
+      height: 40px;
+      width: 330px;
+
+      border: none;
+      
+      cursor: pointer;
+  
+			mix-blend-mode: normal;
+			border: 2px solid #EBEAED;
+      border-radius: 100px;
+      font-family: 'DM Sans';
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0px;
+      text-align: left;
+      background: #ffffff;
+      color: #0e0e0e66;
+			
+
+      
+      padding: 5px;
+    }
+    
+    .form-field label {
+      height: 50px;
+      width: 330px;
+			border-radius: 100px;
+      border: none;
+      font-family: 'DM Sans';
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 100px;
+    }
+    
+    .login-button {
+      margin: 33px auto;
+      text-align: center;
+    }
+    
+    .login-button button {
+      height: 50px;
+      width: 330px;
+			border-radius: 100px;
+      border: none;
+      background: #6496EB;
+      font-family: 'DM Sans';
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 100px;
+    }
+    
+    footer {
+      background-color: #f8f8f8;
+      color: #555;
+      height: 160px;
+      top: 74.71%;
+      width: 1510px;
+      position:relative;
+left: -1%;
+right: 0%;
+bottom: 0%;
+padding: 10px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    h4{
+      position: absolute;
+width: 86px;
+height: 32px;
+left: 125px;
+top: -6px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+
+
+text-align: center;
+letter-spacing: -0.29px;
+
+color: #000000;
+
+
+    }
+    line{
+      position: absolute;
+left: 9.45%;
+right: 9.31%;
+top: 50%;
+bottom: 49.17%;
+
+mix-blend-mode: normal;
+opacity: 0.3;
+border: 2px solid #000000;
+    }
+    p{
+      position: absolute;
+height: 26px;
+left: 69.93%;
+right: 9.31%;
+top: calc(50% - 26px/2 + 62px);
+
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: right;
+color: #000000;
+mix-blend-mode: normal;
+    }
+    home{
+      position: absolute;
+height: 26px;
+left: 9.38%;
+right: 87.57%;
+top: calc(50% - 26px/2 + 62px);
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #000000;
+    }
+    about{
+      position: absolute;
+height: 26px;
+left: 13.61%;
+right: 81.18%;
+top: calc(50% - 26px/2 + 62px);
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+
+color: #000000;
+    }
+    contact{
+      position: absolute;
+height: 26px;
+left: 19.94%;
+right: 73.59%;
+top: calc(50% - 26px/2 + 62.4px);
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+
+color: #000000;
+    }
+  </style>
+  <script>
+    function validateLogin() {
+      var email = document.getElementById('email').value;
+      var password = document.getElementById('password').value;
+      if (email === 'root@gmail.com' && password === 'toor') {
+        window.location.href = 'dashboard.html';
+      } else {
+        
+        var errorElement = document.getElementById('error-message');
+        errorElement.textContent = 'Invalid Credentials';
+        errorElement.style.display = 'flex';
+      }
+    }
+  </script>
+</head>
+<body>
+  
+  <header>
+    <img src="logo.jpg" alt="Logo">
+  </header>
+
+  <div class="center">
+    <div class="background-image"></div>
+    <div class="login-form">
+      <div class="login-content">
+        <h3>Log In</h3>
+      </div>
+      <div class="form-field">
+        <input type="email" id="email" placeholder="Your email" required>
+      </div>
+      <div class="form-field">
+        <input type="password" id="password" placeholder="Your password" required>
+      </div>
+      <div class="login-button">
+        <button type="button" onclick="validateLogin()">Log In</button>
+        </div>
+        <p id="error-message" style="position: absolute; width: 136px; height: 26px;top: 350px;left: 155px; font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 26px; display: flex; align-items: center; color: #F75B46; border-radius: 100px;"></p>
+      </div> 
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <h4>Tracker</h4>
+    <line></line>
+   <p> &copy; 2023 Your Company. All rights reserved.</p>
+   <home>Home</home>
+   <about>About Us</about>
+   <contact>Contact Us</contact>
+  </footer>
+</body>
+</html>
